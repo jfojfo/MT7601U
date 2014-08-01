@@ -313,6 +313,10 @@ LINUX_SRC = /home2/charlestu/AP-VT3426/linux-2.6.18
 CROSS_COMPILE = /opt/montavista/pro/devkit/arm/v5t_le_mvl5/bin/arm_v5t_le-
 endif
 
+
+LINUX_SRC=../linux-sunxi
+CROSS_COMPILE=arm-linux-gnueabihf-
+
 export OSABL RT28xx_DIR RT28xx_MODE LINUX_SRC CROSS_COMPILE CROSS_COMPILE_INCLUDE PLATFORM RELEASE CHIPSET MODULE RTMP_SRC_DIR LINUX_SRC_MODULE TARGET HAS_WOW_SUPPORT
 
 # The targets that may be used.
